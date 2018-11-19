@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d10323487cb44348b830bc017eb40b4, type: 3}
+  m_Name: SteamVR_Input_References
+  m_EditorClassIdentifier: 
+  actionSetNames:
+  - _default
+  - platformer
+  - buggy
+  actionSetObjects:
+  - {fileID: 11400000, guid: 9603369dd39951a479d952855d2e6f32, type: 2}
+  - {fileID: 11400000, guid: 028e342e2a5f54649a973556112f36e3, type: 2}
+  - {fileID: 11400000, guid: 8311821f88bf54c4bae890d144141db6, type: 2}
+  actionNames:
+  - __actions_default_in_InteractUI
+  - __actions_default_in_Teleport
+  - __actions_default_in_GrabPinch
+  - __actions_default_in_GrabGrip
+  - __actions_default_in_Pose
+  - __actions_default_in_SkeletonLeftHand
+  - __actions_default_in_SkeletonRightHand
+  - __actions_default_in_Squeeze
+  - __actions_default_out_Haptic
+  - __actions_platformer_in_Move
+  - __actions_platformer_in_Jump
+  - __actions_buggy_in_Steering
+  - __actions_buggy_in_Throttle
+  - __actions_buggy_in_Brake
+  - __actions_buggy_in_Reset
+  actionObjects:
+  - {fileID: 11400000, guid: 0b6a9fd0cdf72af43bebd4e7b70c6510, type: 2}
+  - {fileID: 11400000, guid: 77cc2f4447d2bb24b8522a5cafe51607, type: 2}
+  - {fileID: 11400000, guid: 68a6c11c185d65247b2bd7aafeb483af, type: 2}
+  - {fileID: 11400000, guid: 911f706cfaa6eda4fa1d6518ebcbc0c0, type: 2}
+  - {fileID: 11400000, guid: a43b55d632d8e0c419008a35af212ed2, type: 2}
+  - {fileID: 11400000, guid: 3c0202f01a906ce4cace7e965447df54, type: 2}
+  - {fileID: 11400000, guid: 96fa44ef6c433ca40be3c138a8bd905b, type: 2}
+  - {fileID: 11400000, guid: def6cbfc8a2493e4289ad348778c7540, type: 2}
+  - {fileID: 11400000, guid: 629bbf5ad2351dc4cb412a0092962e8f, type: 2}
+  - {fileID: 11400000, guid: 565f1c4d66609284593a660bbd82cf1c, type: 2}
+  - {fileID: 11400000, guid: 5b37aebe91aea6b4bbc64f7da4cf5642, type: 2}
+  - {fileID: 11400000, guid: bdf49648e103407478afc4c8ec4d2c2c, type: 2}
+  - {fileID: 11400000, guid: 40366ffde3f57b6429a483bc95ae1ee7, type: 2}
+  - {fileID: 11400000, guid: 05c6a797d3dc7c540831b59ed49b0841, type: 2}
+  - {fileID: 11400000, guid: 43e1fe229e9121d418bcb66f94f04793, type: 2}
